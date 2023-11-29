@@ -3,10 +3,11 @@ Create and customize SVG logos with ease using this SVG generator app.
 
 
 ## Deployment
-[Link to the website](https://ronaldmartin02.github.io/Octo-Weather-Forecast/)
+[Link to the github repo](https://github.com/RonaldMartin02/supreme-svg-potato)
 
-![Image of my Website Deployed](./Assets/img/Oct-Weather-Forecast-Deployment.PNG)
+![Image of my example svg](./logo.svg)
 
+[Link to a video demo](https://drive.google.com/file/d/1kouBBFwtaef3eqnLfd2CJW_X0NmMMTka/view)
 ## Installation
 No installation is required to use this SVG generator app. Simply access it through your web browser.
 
