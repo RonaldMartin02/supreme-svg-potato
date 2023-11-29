@@ -33,3 +33,46 @@ async function promptUser() {
   
     return userInput;
   }
+  function generateShape(userInput) {
+    const { text, textColor, shape, shapeColor } = userInput;
+  
+    let selectedShape;
+    switch (shape) {
+      case 'circle':
+        selectedShape = new Circle();
+        break;
+      case 'square':
+        selectedShape = new Square();
+        break;
+      case 'triangle':
+        selectedShape = new Triangle();
+        break;
+      default:
+        // Handle unexpected shape
+        break;
+    }
+  
+    selectedShape.setText(text);
+    selectedShape.setTextColor(textColor);
+    selectedShape.setColor(shapeColor);
+  
+    const svgData = selectedShape.render();
+  
+    return svgData;
+  }
+  function writeToFile(data) {
+    fs.writeFile("logo.svg", data, (err) => {
+      if (err) {
+        console.error('Error writing to file:', err);
+      } else {
+        console.log('Generated logo.svg');
+      }
+    });
+}
+async function run() {
+    const userInput = await promptUser();
+    const svgData = generateShape(userInput);
+    writeToFile(svgData);
+  }
+  
+  run();
