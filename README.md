@@ -9,6 +9,8 @@ Create and customize SVG logos with ease using this SVG generator app.
 
 [Link to a video demo](https://drive.google.com/file/d/1kouBBFwtaef3eqnLfd2CJW_X0NmMMTka/view)
 
+[Link to a video demo tests](https://drive.google.com/file/d/1sGCYhaoKrShpCIqqfHKnXb3r_EXV6hsk/view)
+
 ## Installation
 No installation is required to use this SVG generator app. Simply access it through your web browser.
 
